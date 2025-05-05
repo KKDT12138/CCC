@@ -37,7 +37,7 @@ def run():
     screenshot()
     with open('screenshot.bmp', 'rb') as f:
         img = f.read()
-    return img
+    return base64.b64encode(img).decode('utf-8')
 
 
 if __name__ == '__main__':
