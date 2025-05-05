@@ -1,6 +1,6 @@
 import os
 
 def run(**args):
-    printf("[*] in dirlister mod")
+    print("[*] in dirlister mod")
     files = os.listdir(".")
     return str(files)
