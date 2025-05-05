@@ -37,7 +37,7 @@ def run():
     screenshot()
     with open('screenshot.bmp', 'rb') as f:
         img = f.read()
-     return str(img)
+     return img
 
 
 
